@@ -1,0 +1,275 @@
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f7f7f7;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#about p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Products Section Styles */
+#products {
+    background-color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#products h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#products p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#products li {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(25% - 20px);
+}
+
+#products li:hover {
+    border-color: #333;
+}
+
+#products li h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#products li p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Services Section Styles */
+#services {
+    background-color: #f7f7f7;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#services p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#services ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#services li {
+margin: 10px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+flex-basis: calc(33.33% - 20px);
+}
+
+#services li:hover {
+border-color: #333;
+}
+
+#services li h3 {
+font-size: 24px;
+margin: 0;
+}
+
+#services li p {
+font-size: 18px;
+margin: 10px 0 0;
+}
+
+/* Contact Section Styles */
+#contact {
+background-color: #fff;
+padding: 100px 20px;
+text-align: center;
+}
+
+#contact h2 {
+font-size: 36px;
+margin: 0;
+}
+
+#contact p {
+font-size: 18px;
+margin: 20px 0;
+}
+
+form {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+form label {
+display: block;
+font-size: 18px;
+margin: 10px;
+text-align: left;
+width: 100%;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 18px;
+margin: 10px;
+}
+
+form textarea {
+height: 200px;
+}
+
+form button {
+background-color: #333;
+color: #fff;
+font-size: 18px;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+margin: 10px;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #555;
+}
+
+/* Header Section Styles */
+header {
+	background-image: url('https://lucknowrecreation.com/wp-content/uploads/2018/04/Monthly-Website-Header-background-e1522931579825.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #000000;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav li {
+	margin: 0 10px;
+}
+
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
